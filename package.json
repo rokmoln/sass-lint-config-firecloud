@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "sass-lint-config-firecloud",
+  "version": "0.0.1",
+  "license": "Unlicense",
+  "dependencies": {},
+  "devDependencies": {
+    "eclint": "2.3.0"
+  },
+  "peerDependencies": {
+    "sass-lint": "1.10.1"
+  },
+  "scripts": {
+    "test": "eclint check $(git ls-files | grep -v -e \"^package-lock.json$\" -e \"^LICENSE$\" -e \"^UNLICENSE$\")"
+  }
+}
