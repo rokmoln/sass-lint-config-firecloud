@@ -1,5 +1,7 @@
 # sass-lint-config-firecloud [![Build Status][2]][1]
 
+The sass-lint config used within Tobii Cloud Services.
+
 In your project's `.sass-lint.yaml`
 
 ```yaml
