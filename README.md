@@ -20,5 +20,5 @@ in order to install the required peer dependencies.
 [UNLICENSE](UNLICENSE)
 
 
-  [1]: https://travis-ci.org/tobiipro/sass-lint-config-firecloud
-  [2]: https://travis-ci.org/tobiipro/sass-lint-config-firecloud.svg?branch=master
+  [1]: https://travis-ci.com/tobiipro/sass-lint-config-firecloud
+  [2]: https://travis-ci.com/tobiipro/sass-lint-config-firecloud.svg?branch=master
