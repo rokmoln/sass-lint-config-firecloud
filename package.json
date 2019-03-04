@@ -4,6 +4,13 @@
   "description": "The sass-lint config used within Tobii Cloud Services.",
   "version": "0.0.4",
   "license": "Unlicense",
+  "files": [
+    "/BUILD",
+    "/UNLICENSE",
+    "/VERSION",
+    "/config.yml",
+    "/npm-install-peer-dependencies"
+  ],
   "dependencies": {},
   "peerDependencies": {
     "sass-lint": "1.10.1"
@@ -13,6 +20,6 @@
     "sass-lint": "1.10.1"
   },
   "scripts": {
-    "test": "eclint check $(git ls-files | grep -v -e \"^package-lock.json$\" -e \"^LICENSE$\" -e \"^UNLICENSE$\")"
+    "postinstall": "echo '___ WARN Maybe you want to run node_modules/sasslint-config-firecloud/npm-install-peer-dependencies.'"
   }
 }
