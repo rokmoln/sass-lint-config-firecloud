@@ -5,10 +5,11 @@
   "version": "0.0.4",
   "license": "Unlicense",
   "dependencies": {},
-  "devDependencies": {
-    "eclint": "2.3.0"
-  },
   "peerDependencies": {
+    "sass-lint": "1.10.1"
+  },
+  "devDependencies": {
+    "eclint": "2.3.0",
     "sass-lint": "1.10.1"
   },
   "scripts": {
