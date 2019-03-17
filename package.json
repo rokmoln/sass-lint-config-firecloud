@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "eclint": "^2.3.0",
+    "npm-publish-git": "git://github.com/andreineculau/npm-publish-git.git#semver:~0.0.8",
     "sass-lint": "^1.10.1"
   },
   "scripts": {
