@@ -13,11 +13,11 @@
   ],
   "dependencies": {},
   "peerDependencies": {
-    "sass-lint": "1.10.1"
+    "sass-lint": "^1.10.1"
   },
   "devDependencies": {
-    "eclint": "2.3.0",
-    "sass-lint": "1.10.1"
+    "eclint": "^2.3.0",
+    "sass-lint": "^1.10.1"
   },
   "scripts": {
     "postinstall": "echo '___ WARN Maybe you want to run node_modules/sasslint-config-firecloud/npm-install-peer-dependencies.'"
