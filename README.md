@@ -2,7 +2,7 @@
 
 The sass-lint config used within Tobii Cloud Services.
 
-In your project's `.sass-lint.yaml`
+In your project's `.sass-lint.yml`
 
 ```yaml
 options:
