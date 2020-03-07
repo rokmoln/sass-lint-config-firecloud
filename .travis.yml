@@ -1,17 +1,10 @@
 # 1. Notifications
-notifications:
-  slack:
-    rooms:
-      # cloud-ci
-      - secure: "TXVx622hYnMEZBU4RmGIdY4+Am54fdhaZWx1lFePfWb+vBEPrb0hiCms8TetSsL3IOAKeS0iHVvfZGwvAWfyY+20T3hoUmbuZC961/0b8hDH1v+mHW5uusfs45VnJsh29wjsjArCJz3xyz2C64ecFDWAYg4xsArTtDPvMqnaJVzeWF5sJgNaWVlhJPN8crIXF4R6bLQDMxOZJySzUwF+Jz9KgGLzUy14v3THlMH+s2CnPKO3GLhw1lRzcXFGi6A3IgfBt/MZywMkNJ0vetgjNgzFdMzE5GMqg6l/hRrcfHh6/maCDgQqIJ/bT1lAAlGOs9ytONr0p0nV1t6SZFZwza6aegolQt8BvIKWDoHJ1wnyOgMNRoOvqUKZvmig3fWs3yegbMbdVefAj9/yGsmtvByp6LCPjj1WEI7PtwwcECD/Tti/1Qhz7CtDQ3Tzu7WKdoA7gZc3luljd5+/VZ1gfUOfzidexEo+nn6Nv82aAIwpHGnAFcJnsc9wBBUHDwJ+o7afeessw8NQtqugipYkBh0udmwPohAdNYQHXVPVOnLNBIhMe+QOuviOle3Ba78UbKj1ZeBIW5bMtfiRLO0aGOCRGFtlUY5QuzBBp0yNScpABX73vVsmGsvHNWIPYDZsgBmDuvWlOz3yElO8FVvK4qLsAQGRepN8iL+WAlcJBxU="
-    on_success: change
-    on_pull_requests: false
+# notifications:
 
 # 2. Env
 # env:
 
 # 3. Git
-# git:
 branches:
   only:
     - master
